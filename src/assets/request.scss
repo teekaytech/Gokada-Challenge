@@ -1,11 +1,11 @@
 .request {
   background-color: #fff;
   margin: auto 2rem;
+  padding-top: 1rem;
 
   &__title {
-    padding: 0.5rem 0 0 0;
-
     h4 {
+      margin-top: 0.5rem;
       font-size: 1.3rem;
     }
   }
@@ -13,13 +13,28 @@
   &__addresses {
     text-align: center;
     overflow-x: hidden;
+    margin-top: 1.5rem;
+
     .pickup,
     .dropoff {
       display: inline-block;
-      width: 75%;
-      margin: 1rem 0;
+      width: 85%;
+      font-size: 0.9rem;
       padding: 1rem;
       border-radius: 8px;
+      background-color: #eee;
+      outline: 0;
+      border: 0;
+
+      &:focus {
+        background-color: #fff;
+        border: 1px solid #eee;
+      }
+    }
+
+    .dropoff {
+      margin-top: 1rem;
+      margin-bottom: 1rem;
     }
   }
 }

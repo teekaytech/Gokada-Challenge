@@ -1,14 +1,20 @@
-import React from 'react'
+import '../assets/details.scss';
 
 function ParcelDetails() {
   return (
-    <section>
-      <div className="details-meta">
-        <p className="price">₦15,000</p>
-        <p className="duration">3.3km | 24mins</p>
+    <section className="details">
+      <div className="details__info">
+        <div className="price">
+          <p className="price">₦15,000</p>
+        </div>
+        <div className="duration">
+          <p className="duration">3.3km | 24mins</p>
+        </div>
       </div>
-      <div className="details__buton">
-        <button type="submit">Enter Parcel Details</button>
+      <div className="details__button">
+        <button type="submit" className="button">
+          Enter Parcel Details
+        </button>
       </div>
     </section>
   );
