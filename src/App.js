@@ -5,8 +5,10 @@ import RequestFields from './components/RequestFields';
 function App() {
   return (
     <div className="App">
-      <RequestFields />
-      <ParcelDetails />
+      <main>
+        <RequestFields />
+        <ParcelDetails />
+      </main>
     </div>
   );
 }
