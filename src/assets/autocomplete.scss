@@ -1,0 +1,31 @@
+.suggestion-item {
+  width: 85%;
+  margin: 0.1rem auto;
+  padding: 0.5rem;
+  text-align: left;
+  display: flex;
+  align-items: center;
+
+  .item1 {
+    margin-right: 0.7rem;
+
+    .marker {
+      display: inline-block;
+      padding: 0.3rem 0.5rem;
+      margin-right: 0.2rem;
+      border-radius: 50%;
+      background-color: #ddd;
+      color: #aaa;
+    }
+  }
+
+  .item2 {
+    h6 {
+      font-weight: bold;
+      font-size: 0.8rem;
+    }
+    p {
+      font-size: 0.65rem;
+    }
+  }
+}
